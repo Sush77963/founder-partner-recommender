@@ -1,0 +1,32 @@
+title: Startup Matching Recommendation Engine
+author: Sushant Yadav
+project_id: scaledux_task_3
+internship: ScaleDux AI Internship
+description: >
+  A rule-based recommendation system to match startup founders with service providers
+  and mentors based on industry, skills, needs, and availability. Built using Python, 
+  pandas, and visualization tools like Seaborn.
+
+technologies:
+  - Python
+  - pandas
+  - numpy
+  - seaborn
+  - matplotlib
+
+input_files:
+  - data/Cleaned_User_Matching_Dataset.csv
+
+output_files:
+  - outputs/match_scores_all.csv
+  - outputs/top_matches_founders.csv
+  - outputs/top_matches_providers.csv
+  - outputs/match_score_heatmap.png
+  - outputs/top_matches_bar_chart.png
+
+scripts:
+  - score_matching.py
+  - visualize_matches.py
+
+status: completed
+github: https://github.com/Sush77963/scaledux-task3-startup-matching
